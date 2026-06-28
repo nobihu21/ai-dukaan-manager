@@ -1,0 +1,6 @@
+{
+  "name": "ai-dukaan-manager",
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}

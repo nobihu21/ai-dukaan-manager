@@ -1,0 +1,17 @@
+{
+  "name": "AI Dukaan Manager",
+  "short_name": "Dukaan AI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8EC",
+  "theme_color": "#F4A823",
+  "description": "Urdu-first inventory, sales, and karz management for small shops.",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
