@@ -212,7 +212,7 @@ export default async function handler(request: VercelRequest, response: VercelRe
   try {
     if (geminiApiKey) {
       const geminiResponse = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
         {
           method: "POST",
           signal: AbortSignal.timeout(15000),
